@@ -1,9 +1,8 @@
 extends Node2D
 
-@export var speed_x: int = 100
-@export var speed_y: int = 0
-
 @onready var wolf: Sprite2D = $Wolf
+@onready var rabbit: Sprite2D = $Rabbit
 
 func _process(delta: float) -> void:
-	wolf.position += Vector2(speed_x, speed_y) * delta
+	wolf.position += Vector2(100, 0) * delta
+	rabbit.position += Vector2(0, 100) * delta
