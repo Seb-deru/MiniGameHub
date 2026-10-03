@@ -1,6 +1,7 @@
 extends Sprite2D
 
-@export var speed: Vector2 = Vector2(100, 0)
+@export var linear_speed: float = 100.0
+@export var direction: Vector2 = Vector2(1, 0)
 
 func _process(delta: float) -> void:
-	position += speed * delta
+	position += direction.normalized() * linear_speed * delta

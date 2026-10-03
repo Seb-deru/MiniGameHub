@@ -24,38 +24,32 @@ offset_bottom = 627.6409
 grow_vertical = 0
 
 [node name="Wolf" parent="." unique_id=526554723 instance=ExtResource("3_mesjy")]
-position = Vector2(47.999985, 68)
+position = Vector2(73, 263)
 texture = ExtResource("1_xkupy")
 
 [node name="Rabbits" type="Node2D" parent="." unique_id=1394306871]
-position = Vector2(208, 76)
+position = Vector2(245, 383)
+rotation = -1.575529
 
-[node name="Rabbit" parent="Rabbits" unique_id=1133530296 instance=ExtResource("3_mesjy")]
-position = Vector2(-6.3749957, -8.697667)
-scale = Vector2(0.2, 0.2)
+[node name="Rabbit" parent="Rabbits" unique_id=689966219 instance=ExtResource("3_mesjy")]
 texture = ExtResource("4_mesjy")
-speed = Vector2(0, 100)
+linear_speed = 120.0
+direction = Vector2(-0.5, 0.5)
 
-[node name="Rabbit2" parent="Rabbits" unique_id=1050795171 instance=ExtResource("3_mesjy")]
-position = Vector2(54.625, -7.3333325)
-scale = Vector2(0.2, 0.2)
+[node name="Rabbit2" parent="Rabbits" unique_id=1456527205 instance=ExtResource("3_mesjy")]
+position = Vector2(69.999214, 0.33128443)
 texture = ExtResource("4_mesjy")
-speed = Vector2(0, 120)
+linear_speed = 150.0
+direction = Vector2(-0.5, 1)
 
-[node name="Rabbit3" parent="Rabbits" unique_id=919106595 instance=ExtResource("3_mesjy")]
-position = Vector2(115.899994, -5.400001)
-scale = Vector2(0.2, 0.2)
+[node name="Rabbit3" parent="Rabbits" unique_id=1227928674 instance=ExtResource("3_mesjy")]
+position = Vector2(137.99844, 0.6531036)
 texture = ExtResource("4_mesjy")
-speed = Vector2(0, 150)
+linear_speed = 160.0
+direction = Vector2(0.2, 1)
 
-[node name="Rabbit4" parent="Rabbits" unique_id=1090637684 instance=ExtResource("3_mesjy")]
-position = Vector2(192.9, -5.400001)
-scale = Vector2(0.2, 0.2)
+[node name="Rabbit4" parent="Rabbits" unique_id=1683613098 instance=ExtResource("3_mesjy")]
+position = Vector2(205.99768, 0.9749228)
 texture = ExtResource("4_mesjy")
-speed = Vector2(0, 120)
-
-[node name="Rabbit5" parent="Rabbits" unique_id=808746110 instance=ExtResource("3_mesjy")]
-position = Vector2(242, -5)
-scale = Vector2(0.2, 0.2)
-texture = ExtResource("4_mesjy")
-speed = Vector2(0, 120)
+linear_speed = 150.0
+direction = Vector2(0.5, 1.5)
