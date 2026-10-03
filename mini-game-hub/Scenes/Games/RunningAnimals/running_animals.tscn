@@ -34,26 +34,28 @@ position = Vector2(208, 76)
 position = Vector2(-6.3749957, -8.697667)
 scale = Vector2(0.2, 0.2)
 texture = ExtResource("4_mesjy")
-speed_x = 0
-speed_y = 100
+speed = Vector2(0, 100)
 
 [node name="Rabbit2" parent="Rabbits" unique_id=1050795171 instance=ExtResource("3_mesjy")]
 position = Vector2(54.625, -7.3333325)
 scale = Vector2(0.2, 0.2)
 texture = ExtResource("4_mesjy")
-speed_x = 0
-speed_y = 120
+speed = Vector2(0, 120)
 
 [node name="Rabbit3" parent="Rabbits" unique_id=919106595 instance=ExtResource("3_mesjy")]
 position = Vector2(115.899994, -5.400001)
 scale = Vector2(0.2, 0.2)
 texture = ExtResource("4_mesjy")
-speed_x = 0
-speed_y = 150
+speed = Vector2(0, 150)
 
 [node name="Rabbit4" parent="Rabbits" unique_id=1090637684 instance=ExtResource("3_mesjy")]
 position = Vector2(192.9, -5.400001)
 scale = Vector2(0.2, 0.2)
 texture = ExtResource("4_mesjy")
-speed_x = 0
-speed_y = 120
+speed = Vector2(0, 120)
+
+[node name="Rabbit5" parent="Rabbits" unique_id=808746110 instance=ExtResource("3_mesjy")]
+position = Vector2(242, -5)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("4_mesjy")
+speed = Vector2(0, 120)
