@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://ba7ji5fy8ogok"]
+
+[ext_resource type="Script" uid="uid://da0jnx2l5lx6c" path="res://Scenes/Games/RunningAnimals/animal.gd" id="2_hu738"]
+
+[node name="Wolf" type="Sprite2D" unique_id=526554723]
+scale = Vector2(0.3062015, 0.30620146)
+script = ExtResource("2_hu738")

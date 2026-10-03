@@ -1,12 +1,11 @@
 [gd_scene format=3 uid="uid://ceesawcnfrdft"]
 
 [ext_resource type="Texture2D" uid="uid://c3n2k6jhiahnc" path="res://Assets/Animals/dog.png" id="1_xkupy"]
-[ext_resource type="Script" uid="uid://bn1bp30gth2n3" path="res://Scenes/Games/RunningAnimals/running_animals.gd" id="1_ycchs"]
 [ext_resource type="PackedScene" path="res://Scenes/UI/BackToMenuButton.tscn" id="2_u4bxn"]
+[ext_resource type="PackedScene" uid="uid://ba7ji5fy8ogok" path="res://Scenes/Games/RunningAnimals/animal.tscn" id="3_mesjy"]
 [ext_resource type="Texture2D" uid="uid://cehc2fj25m0q6" path="res://Assets/Animals/rabbit.png" id="4_mesjy"]
 
 [node name="RunningAnimals" type="Node2D" unique_id=808427991]
-script = ExtResource("1_ycchs")
 
 [node name="UI" type="Control" parent="." unique_id=555476573]
 layout_mode = 3
@@ -24,29 +23,37 @@ offset_right = 228.54749
 offset_bottom = 627.6409
 grow_vertical = 0
 
-[node name="Wolf" type="Sprite2D" parent="." unique_id=1903454572]
+[node name="Wolf" parent="." unique_id=526554723 instance=ExtResource("3_mesjy")]
 position = Vector2(47.999985, 68)
-scale = Vector2(0.3062015, 0.30620146)
 texture = ExtResource("1_xkupy")
+speed_y = 0
 
 [node name="Rabbits" type="Node2D" parent="." unique_id=1394306871]
 position = Vector2(208, 76)
 
-[node name="Rabbit" type="Sprite2D" parent="Rabbits" unique_id=1008431308]
-scale = Vector2(0.21317829, 0.2131783)
+[node name="Rabbit" parent="Rabbits" unique_id=1133530296 instance=ExtResource("3_mesjy")]
+position = Vector2(-6.3749957, -8.697667)
+scale = Vector2(0.2, 0.2)
 texture = ExtResource("4_mesjy")
+speed_x = 0
 
-[node name="Rabbit2" type="Sprite2D" parent="Rabbits" unique_id=1115093845]
-position = Vector2(48, 0)
-scale = Vector2(0.21317829, 0.2131783)
+[node name="Rabbit2" parent="Rabbits" unique_id=1050795171 instance=ExtResource("3_mesjy")]
+position = Vector2(54.625, -7.3333325)
+scale = Vector2(0.2, 0.2)
 texture = ExtResource("4_mesjy")
+speed_x = 0
+speed_y = 120
 
-[node name="Rabbit3" type="Sprite2D" parent="Rabbits" unique_id=1638314813]
-position = Vector2(104, 0)
-scale = Vector2(0.21317829, 0.2131783)
+[node name="Rabbit3" parent="Rabbits" unique_id=919106595 instance=ExtResource("3_mesjy")]
+position = Vector2(115.899994, -5.400001)
+scale = Vector2(0.2, 0.2)
 texture = ExtResource("4_mesjy")
+speed_x = 0
+speed_y = 150
 
-[node name="Rabbit4" type="Sprite2D" parent="Rabbits" unique_id=919562029]
-position = Vector2(163, 0)
-scale = Vector2(0.21317829, 0.2131783)
+[node name="Rabbit4" parent="Rabbits" unique_id=1090637684 instance=ExtResource("3_mesjy")]
+position = Vector2(192.9, -5.400001)
+scale = Vector2(0.2, 0.2)
 texture = ExtResource("4_mesjy")
+speed_x = 0
+speed_y = 120
