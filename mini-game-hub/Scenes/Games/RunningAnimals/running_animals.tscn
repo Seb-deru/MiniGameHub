@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://ceesawcnfrdft"]
+
+[ext_resource type="Texture2D" uid="uid://c3n2k6jhiahnc" path="res://Assets/Animals/dog.png" id="1_xkupy"]
+[ext_resource type="Script" uid="uid://bn1bp30gth2n3" path="res://Scenes/Games/RunningAnimals/running_animals.gd" id="1_ycchs"]
+[ext_resource type="PackedScene" path="res://Scenes/UI/BackToMenuButton.tscn" id="2_u4bxn"]
+
+[node name="RunningAnimals" type="Node2D" unique_id=808427991]
+script = ExtResource("1_ycchs")
+
+[node name="Wolf" type="Sprite2D" parent="." unique_id=1903454572]
+position = Vector2(198.25, 147.00969)
+scale = Vector2(0.5542636, 0.55426353)
+texture = ExtResource("1_xkupy")
+
+[node name="UI" type="Control" parent="." unique_id=555476573]
+layout_mode = 3
+anchors_preset = 0
+rotation = 0.014792366
+
+[node name="BackToMenuButton" parent="UI" unique_id=767907270 instance=ExtResource("2_u4bxn")]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 28.54749
+offset_top = 577.6409
+offset_right = 228.54749
+offset_bottom = 627.6409
+grow_vertical = 0
