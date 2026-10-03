@@ -8,8 +8,8 @@
 script = ExtResource("1_ycchs")
 
 [node name="Wolf" type="Sprite2D" parent="." unique_id=1903454572]
-position = Vector2(198.25, 147.00969)
-scale = Vector2(0.5542636, 0.55426353)
+position = Vector2(47.999985, 68)
+scale = Vector2(0.3062015, 0.30620146)
 texture = ExtResource("1_xkupy")
 
 [node name="UI" type="Control" parent="." unique_id=555476573]
