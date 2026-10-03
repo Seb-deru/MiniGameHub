@@ -30,23 +30,23 @@ scale = Vector2(0.3062015, 0.30620146)
 texture = ExtResource("1_xkupy")
 
 [node name="Rabbits" type="Node2D" parent="." unique_id=1394306871]
+position = Vector2(208, 76)
 
 [node name="Rabbit" type="Sprite2D" parent="Rabbits" unique_id=1008431308]
-position = Vector2(510, 73)
 scale = Vector2(0.21317829, 0.2131783)
 texture = ExtResource("4_mesjy")
 
 [node name="Rabbit2" type="Sprite2D" parent="Rabbits" unique_id=1115093845]
-position = Vector2(560, 73)
+position = Vector2(48, 0)
 scale = Vector2(0.21317829, 0.2131783)
 texture = ExtResource("4_mesjy")
 
 [node name="Rabbit3" type="Sprite2D" parent="Rabbits" unique_id=1638314813]
-position = Vector2(627, 73)
+position = Vector2(104, 0)
 scale = Vector2(0.21317829, 0.2131783)
 texture = ExtResource("4_mesjy")
 
 [node name="Rabbit4" type="Sprite2D" parent="Rabbits" unique_id=919562029]
-position = Vector2(702, 73)
+position = Vector2(163, 0)
 scale = Vector2(0.21317829, 0.2131783)
 texture = ExtResource("4_mesjy")
