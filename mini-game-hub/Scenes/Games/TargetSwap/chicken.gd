@@ -17,5 +17,6 @@ func _process(delta: float) -> void:
 		else:
 			current_chick = chick
 			
-	var direction:= position.direction_to(current_chick.position)
-	translate(direction * speed * delta)
+	var distance:= position.distance_to(current_chick.position)
+	if distance > 1:
+		position = position.move_toward(current_chick.position, delta * speed)
