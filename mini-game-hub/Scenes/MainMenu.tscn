@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://bl35nxv6fm4c5" path="res://Scenes/Games/ExampleGame.tscn" id="2"]
 [ext_resource type="Script" uid="uid://ck1d4dqapp2cv" path="res://Scripts/game_button.gd" id="3_ghw46"]
 [ext_resource type="PackedScene" uid="uid://ceesawcnfrdft" path="res://Scenes/Games/RunningAnimals/running_animals.tscn" id="4_ghw46"]
+[ext_resource type="PackedScene" uid="uid://bfbqowjy8bin1" path="res://Scenes/Games/TargetSwap/target_swap.tscn" id="5_df05h"]
 
 [node name="MainMenu" type="Control" unique_id=1345277917]
 layout_mode = 3
@@ -44,10 +45,18 @@ layout_mode = 2
 text = "Example Game"
 target_scene = ExtResource("2")
 
-[node name="Example2" type="Button" parent="CenterContainer/ScrollContainer/GameButtonList" unique_id=1653480237]
+[node name="RunningAnimalsBtn" type="Button" parent="CenterContainer/ScrollContainer/GameButtonList" unique_id=1653480237]
 layout_mode = 2
 text = "Running animals
 "
 script = ExtResource("3_ghw46")
 target_scene = ExtResource("4_ghw46")
+metadata/_custom_type_script = "uid://ck1d4dqapp2cv"
+
+[node name="TargetSwapBtn" type="Button" parent="CenterContainer/ScrollContainer/GameButtonList" unique_id=1690166269]
+layout_mode = 2
+text = "Target swap
+"
+script = ExtResource("3_ghw46")
+target_scene = ExtResource("5_df05h")
 metadata/_custom_type_script = "uid://ck1d4dqapp2cv"
