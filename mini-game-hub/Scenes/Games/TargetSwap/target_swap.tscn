@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://bfbqowjy8bin1"]
 
 [ext_resource type="PackedScene" path="res://Scenes/UI/BackToMenuButton.tscn" id="1_mapsu"]
+[ext_resource type="Texture2D" uid="uid://hakeous8vfjj" path="res://Assets/Animals/chicken.png" id="2_urots"]
+[ext_resource type="Script" uid="uid://cxke3oqth5wiy" path="res://Scenes/Games/TargetSwap/chicken.gd" id="3_sgm2g"]
+[ext_resource type="Texture2D" uid="uid://bd6weq6cj1qws" path="res://Assets/Animals/chick.png" id="4_rexkw"]
 
 [node name="TargetSwap" type="Node" unique_id=653277678]
 
@@ -9,3 +12,19 @@ offset_left = 48.0
 offset_top = 572.0
 offset_right = 248.0
 offset_bottom = 622.0
+
+[node name="Chicken" type="Sprite2D" parent="." unique_id=1023419472]
+position = Vector2(609, 520)
+scale = Vector2(0.40625, 0.3862069)
+texture = ExtResource("2_urots")
+script = ExtResource("3_sgm2g")
+
+[node name="Chick" type="Sprite2D" parent="." unique_id=1902292635]
+position = Vector2(138, 117)
+scale = Vector2(0.31007752, 0.34375)
+texture = ExtResource("4_rexkw")
+
+[node name="Chick2" type="Sprite2D" parent="." unique_id=459207673]
+position = Vector2(996, 116)
+scale = Vector2(0.31007752, 0.34375)
+texture = ExtResource("4_rexkw")
