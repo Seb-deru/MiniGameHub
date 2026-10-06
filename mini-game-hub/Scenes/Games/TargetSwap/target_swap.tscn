@@ -13,11 +13,12 @@ offset_top = 572.0
 offset_right = 248.0
 offset_bottom = 622.0
 
-[node name="Chicken" type="Sprite2D" parent="." unique_id=1023419472]
+[node name="Chicken" type="Sprite2D" parent="." unique_id=1023419472 node_paths=PackedStringArray("chicks")]
 position = Vector2(609, 520)
 scale = Vector2(0.40625, 0.3862069)
 texture = ExtResource("2_urots")
 script = ExtResource("3_sgm2g")
+chicks = [NodePath("../Chick"), NodePath("../Chick2"), NodePath("../Chick3"), NodePath("../Chick4")]
 
 [node name="Chick" type="Sprite2D" parent="." unique_id=1902292635]
 position = Vector2(138, 117)
@@ -26,5 +27,15 @@ texture = ExtResource("4_rexkw")
 
 [node name="Chick2" type="Sprite2D" parent="." unique_id=459207673]
 position = Vector2(996, 116)
+scale = Vector2(0.31007752, 0.34375)
+texture = ExtResource("4_rexkw")
+
+[node name="Chick3" type="Sprite2D" parent="." unique_id=1931120370]
+position = Vector2(1002, 503)
+scale = Vector2(0.31007752, 0.34375)
+texture = ExtResource("4_rexkw")
+
+[node name="Chick4" type="Sprite2D" parent="." unique_id=980086035]
+position = Vector2(171.00006, 514)
 scale = Vector2(0.31007752, 0.34375)
 texture = ExtResource("4_rexkw")
