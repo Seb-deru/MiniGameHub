@@ -1,7 +1,5 @@
 [gd_scene format=3 uid="uid://dud5evupphicd"]
 
-[ext_resource type="PackedScene" path="res://Scenes/UI/GameButton.tscn" id="1"]
-[ext_resource type="PackedScene" uid="uid://bl35nxv6fm4c5" path="res://Scenes/Games/ExampleGame.tscn" id="2"]
 [ext_resource type="Script" uid="uid://ck1d4dqapp2cv" path="res://Scripts/game_button.gd" id="3_ghw46"]
 [ext_resource type="PackedScene" uid="uid://ceesawcnfrdft" path="res://Scenes/Games/RunningAnimals/running_animals.tscn" id="4_ghw46"]
 [ext_resource type="PackedScene" uid="uid://bfbqowjy8bin1" path="res://Scenes/Games/TargetSwap/target_swap.tscn" id="5_df05h"]
@@ -39,11 +37,6 @@ layout_mode = 2
 custom_minimum_size = Vector2(260, 0)
 layout_mode = 2
 theme_override_constants/separation = 12
-
-[node name="ExampleGameButton" parent="CenterContainer/ScrollContainer/GameButtonList" unique_id=728518719 instance=ExtResource("1")]
-layout_mode = 2
-text = "Example Game"
-target_scene = ExtResource("2")
 
 [node name="RunningAnimalsBtn" type="Button" parent="CenterContainer/ScrollContainer/GameButtonList" unique_id=1653480237]
 layout_mode = 2
