@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cw57s8itom4i0"]
+
+[ext_resource type="PackedScene" path="res://Scenes/UI/BackToMenuButton.tscn" id="1_5gfbq"]
+[ext_resource type="Script" uid="uid://bhk317e0oom8y" path="res://Scenes/Games/Operators/operator.gd" id="1_gijgi"]
+
+[node name="Operator" type="Node" unique_id=2040388502]
+script = ExtResource("1_gijgi")
+
+[node name="BackToMenuButton" parent="." unique_id=613678561 instance=ExtResource("1_5gfbq")]
+offset_left = 48.0
+offset_top = 565.0
+offset_right = 248.0
+offset_bottom = 615.0

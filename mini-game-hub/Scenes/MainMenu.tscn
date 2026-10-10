@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dud5evupphicd"]
 
 [ext_resource type="Script" uid="uid://ck1d4dqapp2cv" path="res://Scripts/game_button.gd" id="3_ghw46"]
+[ext_resource type="PackedScene" uid="uid://cw57s8itom4i0" path="res://Scenes/Games/Operators/operator.tscn" id="4_df05h"]
 [ext_resource type="PackedScene" uid="uid://ceesawcnfrdft" path="res://Scenes/Games/RunningAnimals/running_animals.tscn" id="4_ghw46"]
 [ext_resource type="PackedScene" uid="uid://bfbqowjy8bin1" path="res://Scenes/Games/TargetSwap/target_swap.tscn" id="5_df05h"]
 
@@ -52,4 +53,13 @@ text = "Target swap
 "
 script = ExtResource("3_ghw46")
 target_scene = ExtResource("5_df05h")
+metadata/_custom_type_script = "uid://ck1d4dqapp2cv"
+
+[node name="OperatorsBtn" type="Button" parent="CenterContainer/ScrollContainer/GameButtonList" unique_id=2138132503]
+layout_mode = 2
+text = "Operators
+
+"
+script = ExtResource("3_ghw46")
+target_scene = ExtResource("4_df05h")
 metadata/_custom_type_script = "uid://ck1d4dqapp2cv"
