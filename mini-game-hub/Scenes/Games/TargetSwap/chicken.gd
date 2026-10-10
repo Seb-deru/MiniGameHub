@@ -12,6 +12,6 @@ func _process(delta: float) -> void:
 			current_chick_index = 0
 		
 	var current_chick: Sprite2D = chicks[current_chick_index]	
-	var distance:= position.distance_to(current_chick.position)
+	var distance:= position.distance_to(current_chick.global_position)
 	if distance > 1:
-		position = position.move_toward(current_chick.position, delta * speed)
+		global_position = global_position.move_toward(current_chick.global_position, delta * speed)
