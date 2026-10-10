@@ -1,8 +1,7 @@
 [gd_scene format=3 uid="uid://bfbqowjy8bin1"]
 
 [ext_resource type="PackedScene" path="res://Scenes/UI/BackToMenuButton.tscn" id="1_mapsu"]
-[ext_resource type="Texture2D" uid="uid://hakeous8vfjj" path="res://Assets/Animals/chicken.png" id="2_urots"]
-[ext_resource type="Script" uid="uid://cxke3oqth5wiy" path="res://Scenes/Games/TargetSwap/chicken.gd" id="3_sgm2g"]
+[ext_resource type="PackedScene" uid="uid://bspkep5s5vvip" path="res://Scenes/Games/TargetSwap/chicken.tscn" id="2_7tj5w"]
 [ext_resource type="Texture2D" uid="uid://bd6weq6cj1qws" path="res://Assets/Animals/chick.png" id="4_rexkw"]
 
 [node name="TargetSwap" type="Node" unique_id=653277678]
@@ -13,11 +12,8 @@ offset_top = 572.0
 offset_right = 248.0
 offset_bottom = 622.0
 
-[node name="Chicken" type="Sprite2D" parent="." unique_id=1023419472 node_paths=PackedStringArray("chicks")]
+[node name="Chicken" parent="." unique_id=227782935 node_paths=PackedStringArray("chicks") instance=ExtResource("2_7tj5w")]
 position = Vector2(609, 520)
-scale = Vector2(0.40625, 0.3862069)
-texture = ExtResource("2_urots")
-script = ExtResource("3_sgm2g")
 chicks = [NodePath("../Chick"), NodePath("../Chick2"), NodePath("../Chick3"), NodePath("../Chick4")]
 
 [node name="Chick" type="Sprite2D" parent="." unique_id=1902292635]

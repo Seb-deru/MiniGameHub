@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bspkep5s5vvip"]
+
+[ext_resource type="Texture2D" uid="uid://hakeous8vfjj" path="res://Assets/Animals/chicken.png" id="1_j47vy"]
+[ext_resource type="Script" uid="uid://cxke3oqth5wiy" path="res://Scenes/Games/TargetSwap/chicken.gd" id="2_nqh8g"]
+
+[node name="Chicken" type="Sprite2D" unique_id=227782935 node_paths=PackedStringArray("chicks")]
+scale = Vector2(0.40625, 0.3862069)
+texture = ExtResource("1_j47vy")
+script = ExtResource("2_nqh8g")
+chicks = [NodePath(""), NodePath(""), NodePath(""), NodePath("")]
