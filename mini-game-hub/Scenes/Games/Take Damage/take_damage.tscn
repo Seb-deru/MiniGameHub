@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://be6y2sfaacxuo"]
+
+[ext_resource type="Script" uid="uid://c0h25tv8qqe6n" path="res://Scenes/Games/Take Damage/take_damage.gd" id="1_iw4eo"]
+
+[node name="TakeDamage" type="Node" unique_id=687320348]
+script = ExtResource("1_iw4eo")
