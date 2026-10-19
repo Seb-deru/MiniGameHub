@@ -1,6 +1,13 @@
 [gd_scene format=3 uid="uid://be6y2sfaacxuo"]
 
 [ext_resource type="Script" uid="uid://c0h25tv8qqe6n" path="res://Scenes/Games/Take Damage/take_damage.gd" id="1_iw4eo"]
+[ext_resource type="PackedScene" path="res://Scenes/UI/BackToMenuButton.tscn" id="2_c1n75"]
 
 [node name="TakeDamage" type="Node" unique_id=687320348]
 script = ExtResource("1_iw4eo")
+
+[node name="BackToMenuButton" parent="." unique_id=1883876583 instance=ExtResource("2_c1n75")]
+offset_left = 29.0
+offset_top = 570.0
+offset_right = 229.0
+offset_bottom = 620.0

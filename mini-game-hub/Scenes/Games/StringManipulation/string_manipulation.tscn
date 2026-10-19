@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bgykbkjxn3176"]
+
+[ext_resource type="Script" uid="uid://bbdp267xljo6t" path="res://Scenes/Games/StringManipulation/string_manipulation.gd" id="1_t0l27"]
+[ext_resource type="PackedScene" path="res://Scenes/UI/BackToMenuButton.tscn" id="2_y64wy"]
+
+[node name="StringManipulation" type="Node" unique_id=1239676078]
+script = ExtResource("1_t0l27")
+
+[node name="BackToMenuButton" parent="." unique_id=1914040600 instance=ExtResource("2_y64wy")]
+offset_left = 18.0
+offset_top = 580.0
+offset_right = 218.0
+offset_bottom = 630.0

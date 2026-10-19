@@ -73,3 +73,10 @@ text = "Take Damage
 script = ExtResource("3_ghw46")
 target_scene = ExtResource("5_8um5k")
 metadata/_custom_type_script = "uid://ck1d4dqapp2cv"
+
+[node name="StringManipulation" type="Button" parent="CenterContainer/ScrollContainer/GameButtonList" unique_id=2053113663]
+layout_mode = 2
+text = "Manipulate strings"
+script = ExtResource("3_ghw46")
+target_scene = ExtResource("5_8um5k")
+metadata/_custom_type_script = "uid://ck1d4dqapp2cv"
