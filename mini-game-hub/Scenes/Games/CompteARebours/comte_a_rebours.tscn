@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://c1q8fvsscohy1"]
+
+[ext_resource type="Script" uid="uid://b5pvusfyhr4dq" path="res://Scenes/Games/CompteARebours/comte_a_rebours.gd" id="1_tlh8f"]
+
+[node name="ComteARebours" type="Node" unique_id=615930043]
+script = ExtResource("1_tlh8f")
