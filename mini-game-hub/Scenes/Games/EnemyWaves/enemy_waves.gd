@@ -9,13 +9,13 @@ func _ready() -> void:
 		var is_boss: bool = i % 4 == 0
 		
 		var message: String = "Ennemi " + str(i)
-		if is_boss:
-			message += ": BOSS"
-		print(message)
+		var current_enemy_hp: int = enemy_hp
 		
 		if is_boss:
-			total_hp += enemy_hp * 2
-		else: 
-			total_hp += enemy_hp
+			message += ": BOSS"
+			current_enemy_hp *= 2
+			
+		print(message)
+		total_hp += current_enemy_hp
 		
 	print("Total hp: ", total_hp)
