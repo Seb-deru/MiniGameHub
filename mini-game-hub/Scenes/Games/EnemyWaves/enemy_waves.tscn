@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bw7i52dm0x8x2"]
+
+[ext_resource type="Script" uid="uid://bbjs8vtyewatk" path="res://Scenes/Games/EnemyWaves/enemy_waves.gd" id="1_2e3w5"]
+
+[node name="EnemyWaves" type="Node" unique_id=2047403131]
+script = ExtResource("1_2e3w5")
