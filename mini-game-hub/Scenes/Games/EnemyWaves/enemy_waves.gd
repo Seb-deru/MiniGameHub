@@ -6,14 +6,12 @@ var total_hp: int = 0
 
 func _ready() -> void:
 	for i in range(1, wave_size + 1):
-		var is_boss: bool = i % 4 == 0
-		
 		var message: String = "Ennemi " + str(i)
 		var current_enemy_hp: int = enemy_hp
 		
-		if is_boss:
+		if i % 4 == 0:
 			message += ": BOSS"
-			current_enemy_hp *= 2
+			current_enemy_hp = enemy_hp * 2
 			
 		print(message)
 		total_hp += current_enemy_hp
