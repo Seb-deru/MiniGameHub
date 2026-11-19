@@ -1,17 +1,24 @@
 extends Node
 
+var animals: Array[Animal] = []
+
 func _ready() -> void:
 	var rex := Dog.new("Rex", 4, "Akita")
 	var felix := Cat.new("Félix", 3)
 	var titi := Bird.new("Titi", 1)
+	var pingu := Pinguin.new("Pingu", 2)
 
-	rex.decrire() # Rex, 4 ans
-	felix.manger() # Félix mange
-	titi.decrire() # Titi, 1 ans
-	
-	rex.crier()
-	felix.crier()
-	titi.crier()
-	
-	titi.voler()
-	felix.scratch()
+	animals.append(rex)
+	animals.append(felix)
+	animals.append(titi)
+	animals.append(pingu)
+
+	for animal in animals:
+		animal.decrire()
+		animal.crier()
+		
+		if animal is Bird:
+			animal.voler()
+			
+		if animal is Cat:
+			animal.scratch()
