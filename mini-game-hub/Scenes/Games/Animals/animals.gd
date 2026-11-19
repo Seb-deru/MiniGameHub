@@ -8,3 +8,7 @@ func _ready() -> void:
 	rex.decrire() # Rex, 4 ans
 	felix.manger() # Félix mange
 	titi.decrire() # Titi, 1 ans
+	
+	rex.crier()
+	felix.crier()
+	titi.crier()

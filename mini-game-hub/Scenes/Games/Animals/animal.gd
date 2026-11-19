@@ -17,3 +17,6 @@ func decrire() -> void:
 	if age > 1:
 		age_label += "s"
 	print("%s, %d %s" % [animal_name, age, age_label])
+
+func crier()-> void:
+	print("AAAAAH")
