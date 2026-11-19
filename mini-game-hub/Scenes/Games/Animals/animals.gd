@@ -1,7 +1,7 @@
 extends Node
 
 func _ready() -> void:
-	var rex := Dog.new("Rex", 4)
+	var rex := Dog.new("Rex", 4, "Akita")
 	var felix := Cat.new("Félix", 3)
 	var titi := Bird.new("Titi", 1)
 
@@ -12,3 +12,6 @@ func _ready() -> void:
 	rex.crier()
 	felix.crier()
 	titi.crier()
+	
+	titi.voler()
+	felix.scratch()
