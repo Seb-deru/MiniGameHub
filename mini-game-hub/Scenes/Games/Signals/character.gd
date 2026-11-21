@@ -14,19 +14,19 @@ var health: int = 100:
 		
 		if dead:
 			died.emit()
-		
-		
+
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("hit_character"):
 		hit_character(15)
+
 
 func hit_character(damage: int):
 	if dead:
 		return
 		
 	health -= damage
-	
+
 
 func reset() -> void:
 	health = 100
