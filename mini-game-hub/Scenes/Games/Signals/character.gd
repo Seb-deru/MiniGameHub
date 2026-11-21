@@ -30,4 +30,3 @@ func hit_character(damage: int):
 
 func reset() -> void:
 	health = 100
-	dead = false
