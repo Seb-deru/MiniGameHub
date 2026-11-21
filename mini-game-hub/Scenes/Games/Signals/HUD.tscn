@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://cmo8vbesbg4av"]
+
+[ext_resource type="Script" uid="uid://dwicvuay668g3" path="res://Scenes/Games/Signals/hud.gd" id="1_8k016"]
+
+[node name="Hud" type="CanvasLayer" unique_id=1371672167]
+script = ExtResource("1_8k016")
+
+[node name="Label" type="Label" parent="." unique_id=1220988761]
+offset_left = 17.0
+offset_top = 11.0
+offset_right = 108.0
+offset_bottom = 34.0
+theme_override_colors/font_color = Color(2.406, 2.406, 2.406, 1)
+text = "PV: 100"
+
+[node name="Button" type="Button" parent="." unique_id=1680200693]
+visible = false
+offset_left = 18.0
+offset_top = 47.0
+offset_right = 153.0
+offset_bottom = 78.0
+text = "Rejouer"

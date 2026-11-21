@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cd6pbuppjc152"]
+
+[ext_resource type="Script" uid="uid://dl8u2tc14qjot" path="res://Scenes/Games/Signals/main.gd" id="1_5e3xm"]
+[ext_resource type="PackedScene" uid="uid://dw0mx1udkm1ef" path="res://Scenes/Games/Signals/Character.tscn" id="1_et6em"]
+[ext_resource type="PackedScene" uid="uid://cmo8vbesbg4av" path="res://Scenes/Games/Signals/HUD.tscn" id="3_uh7j5"]
+
+[node name="Main" type="Node" unique_id=1748311150]
+script = ExtResource("1_5e3xm")
+
+[node name="Character" parent="." unique_id=675618445 instance=ExtResource("1_et6em")]
+position = Vector2(406, 342)
+
+[node name="Hud" parent="." unique_id=1371672167 instance=ExtResource("3_uh7j5")]

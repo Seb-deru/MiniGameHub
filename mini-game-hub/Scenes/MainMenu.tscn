@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://ceesawcnfrdft" path="res://Scenes/Games/RunningAnimals/running_animals.tscn" id="4_ghw46"]
 [ext_resource type="PackedScene" uid="uid://be6y2sfaacxuo" path="res://Scenes/Games/Take Damage/take_damage.tscn" id="5_8um5k"]
 [ext_resource type="PackedScene" uid="uid://bfbqowjy8bin1" path="res://Scenes/Games/TargetSwap/target_swap.tscn" id="5_df05h"]
+[ext_resource type="PackedScene" uid="uid://cd6pbuppjc152" path="res://Scenes/Games/Signals/Main.tscn" id="6_8um5k"]
 
 [node name="MainMenu" type="Control" unique_id=1345277917]
 layout_mode = 3
@@ -101,4 +102,11 @@ layout_mode = 2
 text = "Animals"
 script = ExtResource("3_ghw46")
 target_scene = ExtResource("5_8um5k")
+metadata/_custom_type_script = "uid://ck1d4dqapp2cv"
+
+[node name="Signals" type="Button" parent="CenterContainer/ScrollContainer/GameButtonList" unique_id=693898314]
+layout_mode = 2
+text = "Signals"
+script = ExtResource("3_ghw46")
+target_scene = ExtResource("6_8um5k")
 metadata/_custom_type_script = "uid://ck1d4dqapp2cv"

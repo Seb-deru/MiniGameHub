@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dw0mx1udkm1ef"]
+
+[ext_resource type="Script" uid="uid://btw80gl6ukfxo" path="res://Scenes/Games/Signals/character.gd" id="1_1l3ot"]
+[ext_resource type="Texture2D" uid="uid://cvhobw1vmbrjk" path="res://Assets/Animals/gorilla.png" id="2_sgard"]
+
+[node name="Character" type="Node2D" unique_id=675618445]
+script = ExtResource("1_1l3ot")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=830906555]
+texture = ExtResource("2_sgard")
